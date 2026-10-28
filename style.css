@@ -45,8 +45,6 @@ html[dir=rtl] h3.sec{letter-spacing:0}
 .grid2s{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 @media(max-width:640px){.grid2s{grid-template-columns:1fr}}
 .stat span{display:block}
-@font-face{font-family:"CV Arabic";font-weight:400;src:url("noto-ar-400.ttf") format("truetype");font-display:swap}
-@font-face{font-family:"CV Arabic";font-weight:700;src:url("noto-ar-700.ttf") format("truetype");font-display:swap}
 .ar,#langbtn,button,[dir=rtl],[dir=rtl] *{font-family:"CV Arabic","Noto Sans Arabic","Segoe UI",Tahoma,Arial,sans-serif;letter-spacing:normal}
 section[id],[id].sec{scroll-margin-top:70px}html{scroll-behavior:smooth}
 .cgrid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin:18px 0 26px}@media(max-width:700px){.cgrid{grid-template-columns:1fr}}
