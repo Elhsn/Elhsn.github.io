@@ -50,3 +50,5 @@ section[id],[id].sec{scroll-margin-top:70px}html{scroll-behavior:smooth}
 .cgrid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin:18px 0 26px}@media(max-width:700px){.cgrid{grid-template-columns:1fr}}
 .cgrp h3{color:#fff;font-size:1rem;margin:0 0 8px}.crow{display:flex;flex-wrap:wrap;gap:4px 14px;margin:6px 0;align-items:baseline}
 .lbl{min-width:76px;color:#9fb0bd;font-size:.9rem}.crow .c{color:#fff;text-decoration:underline;text-underline-offset:3px;word-break:break-all}
+
+.lang,.lang span{font-family:"CV Arabic","Noto Sans Arabic","Segoe UI",Tahoma,Arial,sans-serif;letter-spacing:normal}
