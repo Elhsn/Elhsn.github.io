@@ -104,3 +104,9 @@ h2 .ic{color:var(--accent);margin-inline-end:.45em}
  .reveal{opacity:1;transform:none}
  html{scroll-behavior:auto}
 }
+
+/* ==== fixes: Arabic typography + CTA spacing ==== */
+html[dir=rtl],html[dir=rtl] *{letter-spacing:0!important}
+html[dir=rtl] .eyebrow,html[dir=rtl] h3.sec{text-transform:none;letter-spacing:0!important}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.cta .btn{margin:0!important}
