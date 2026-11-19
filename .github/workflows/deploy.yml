@@ -24,6 +24,7 @@ jobs:
           cp index.html style.css font400.css font700.css _site/
           base64 -d cv-en.b64 > _site/Alhassan-Essawy-CV-EN.pdf
           base64 -d cv-ar.b64 > _site/Alhassan-Essawy-CV-AR.pdf
+          cp -r odoo-egypt-market-monitor _site/
           touch _site/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
